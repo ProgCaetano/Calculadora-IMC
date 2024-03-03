@@ -1,5 +1,4 @@
 
-
 function calcular(){
     //DECLARAR AS VARIÁVEIS
     var nome = document.getElementById('inome').value;
@@ -20,4 +19,5 @@ function calcular(){
 
    
 }
+
 
