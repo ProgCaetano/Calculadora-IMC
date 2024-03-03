@@ -9,7 +9,7 @@ function calcular(){
     if((nome !== "") && (altura !== "") && (peso !== "")) {
 
         //Cálculo IMC
-        var calculo = peso/(altura**2);
+        var calculo = peso/(altura**2).toFixed(1); // toFixed fixa as casas decimais
 
         //MOSTRAR NA TELA
         document.getElementById('itexto').innerHTML = `Oi ${nome}! A sua altura é ${altura} e seu peso é ${peso}, logo seu IMC é de: ${calculo}`;
